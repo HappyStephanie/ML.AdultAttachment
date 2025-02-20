@@ -1,24 +1,26 @@
 # Predicting Adult attachment for Young Adults in the US and China
-Authors: Tong Shen, and Shannon Weaver, at the University of Connecticut
+Authors: Tong Shen and Shannon Weaver, at the University of Connecticut
+
 ### Repository Overview
-This repository contains the analysis code and accompanying documentation used in our study. Our aim is to provide clear, step-by-step explanations of the data analysis process, thereby upholding the principles of open research and transparency in academic studies.
+This repository includes data preparation and analysis scripts, and conference presentation materials. The code was written in Python. I created this repository to provide clear, step-by-step explanations of the data analysis process, promoting open research and transparency in academic studies.
 
-### Tools Used
-Data analysis in this study was conducted using Python and Mplus, chosen for their robust capabilities in handling and analyzing complex datasets. Python is employed for data preparation and verifying if the data meet specific assumptions. Mplus is utilized for directly addressing the research questions. 
+### Research Questions
+Research Question 1: How accurately and effectively can a comprehensive set of predictors (demographic information, relationship specific predictors, and family of origin experiences) predict adult attachment security?
 
-### Data Availability
-The dataset for this study was self-collected and is not publicly available due to privacy restrictions. However, interested researchers may request access to the data from the corresponding author. Such access is contingent upon the completion of a privacy and fair use agreement, to ensure ethical and responsible usage of the data.
+Research Question 2: What are the key predictors of adult attachment security?
+
+Research Question 3: Would the performance of a key predictor model trained on the American sample differ when applied to the Chinese sample?
 
 ### Brief Instructions for Each File
-'data_C': Contains the code used to process the Chinese data.
+'ML_data_C': Code used to process Chinese data.
 
-'data_US': Contains the code used to process the American data.
+'ML_data_US': Code used to process US data.
 
-'assumptions': Includes code for verifying if the data meet specific assumptions.
+'ML_RQ_US': Code used to answer research questions 1 and 2 using only American data.
 
-'RQ_US': Used for analyzing parts of the research questions using only American data.
+'ML_RQ_C': Code used to answer research question 3 with only Chinese data.
 
-'RQ_W_C': Used for analyzing parts of the research questions also requiring Chinese data.
+'NCFR2024': Slides used for the 2024 National Council on Family Relations (NCFR) conference presentation.
 
 ### Contact Information
 For any inquiries or questions, please feel free to post in the 'Issues' section of this repository. We welcome open communication to foster collaborative and ethical research practices.
